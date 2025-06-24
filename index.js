@@ -13,7 +13,7 @@ const sshConfig = {
   host: '3.123.108.219',
   port: 22,
   username: 'ubuntu',
-  privateKey: fs.readFileSync('C:/Users/User/.ssh/eazyman.pem')
+  privateKey: fs.readFileSync('./eazyman.pem')
 };
 
 const dbConfig = {
